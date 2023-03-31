@@ -1,0 +1,140 @@
+/* CSS for CV Maker */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Personal details section */
+
+.personal-details {
+  margin-bottom: 40px;
+}
+
+.personal-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.personal-details p {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* Experience section */
+
+.experience {
+  margin-bottom: 40px;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.experience p {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* Education section */
+
+.education {
+  margin-bottom: 40px;
+}
+
+.education h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.education p {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* Skills section */
+
+.skills {
+  margin-bottom: 40px;
+}
+
+.skills h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Footer section */
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+  color: #999;
+}
